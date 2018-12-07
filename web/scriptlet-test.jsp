@@ -16,7 +16,7 @@
         <h1>Hello World of Java!</h1>
         
         <!--Adding a Jsp Scriptlet-->
-        <!--Once created, then you can add your Java lines of code INSIDE.--> 
+        <!--Once created, then you can add your lines of Java code INSIDE.--> 
         
         <%
             for (int i = 1; i <= 5; i++) {
