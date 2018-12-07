@@ -13,13 +13,19 @@
     </head>
     <body>
         
+        <!--Evaluating objects-->
+        
         Converting a string to uppercase: <%= new String("Hello World").toUpperCase() %>
         
         <br />
         
+        <!--Evaluating mathematical expressions-->
+        
         25 multiplied by 4 equals <%= 25*4 %>
         
         <br />
+        
+        <!--Evaluating boolean-->
         
         Is 75 less than 69? <%= 75 < 69 %>
         
