@@ -13,6 +13,9 @@
     </head>
     <body>
         <h1>Hello World of Java!</h1>
+        
+        <!--Adding some Java code into HTML using Jsp Expressions-->
+        
         The time on the server is <%= new java.util.Date() %>
     </body>
 </html>
