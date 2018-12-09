@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Student Registration Form: Checkbox</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+        <form name="form-registration" action="student-checkbox-response.jsp" method="POST">
+
+            First name: <input type="text" name="firstName" value="" />
+
+            <br /> <br />
+
+            Last name: <input type="text" name="lastName" value="" />
+
+            <br /> <br />
+
+            <!--Our checkboxes-->
+
+            Favorite Programming Language: <br />
+            <input type="checkbox" name="favoriteLanguage" value="Java"> Java
+            <input type="checkbox" name="favoriteLanguage" value="C#"> C#
+            <input type="checkbox" name="favoriteLanguage" value="PHP"> PHP
+            <input type="checkbox" name="favoriteLanguage" value="Ruby"> Ruby
+
+            <br /> <br />
+
+            <input type="submit" value="Submit" />  
+
+        </form>
+
+    </body>
+</html>
