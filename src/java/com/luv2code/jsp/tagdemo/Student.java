@@ -7,7 +7,7 @@ package com.luv2code.jsp.tagdemo;
 
 /**
  *
- * @author jaguar
+ * @author Steven Mwesigwa @steven7mwesigwa
  */
 public class Student {
 
