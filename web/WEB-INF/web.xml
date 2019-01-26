@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
     <!--<servlet>-->
-        <!--<servlet-name>HelloWorldServlet</servlet-name>-->
-        <!--<servlet-class>com.luv2code.servletdemo.HelloWorldServlet</servlet-class>-->
+    <!--<servlet-name>HelloWorldServlet</servlet-name>-->
+    <!--<servlet-class>com.luv2code.servletdemo.HelloWorldServlet</servlet-class>-->
     <!--</servlet>-->
     <!--<servlet-mapping>-->
-        <!--<servlet-name>HelloWorldServlet</servlet-name>-->
-        <!--<url-pattern>/HelloWorldServlet</url-pattern>-->
+    <!--<servlet-name>HelloWorldServlet</servlet-name>-->
+    <!--<url-pattern>/HelloWorldServlet</url-pattern>-->
     <!--</servlet-mapping>-->
+    
+    <!--Adding context parameters to be read later by servlets-->
+    <context-param>
+        <param-name>max-shopping-cart-size</param-name>
+        <param-value>99</param-value>
+    </context-param>
+    
+    <context-param>
+        <param-name>project-team-name</param-name>
+        <param-value>The Coding Gurus</param-value>
+    </context-param>
+        
     <session-config>
         <session-timeout>
             30
@@ -15,6 +27,6 @@
     </session-config>
     <!--    change default welcome page-->
     <!--<welcome-file-list>-->
-        <!--<welcome-file>helloworld.jsp</welcome-file>-->
+    <!--<welcome-file>helloworld.jsp</welcome-file>-->
     <!--</welcome-file-list>-->
 </web-app>
