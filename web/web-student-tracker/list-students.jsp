@@ -50,20 +50,7 @@
                     <tbody>
 
                         <!--Looping through the List of students.-->
-                        <!--"theStudents" is the SAME variable that we set up -->
-                        <!--earlier in the first scriptlet of this JSP page.-->
-                        <%   for (Student tempStudent : theStudents) {%>
 
-                        <tr>
-                            <!--Printing out the data in form of table rows-->
-                            <!--for each "Student" object.-->
-                            <td><%=tempStudent.getFirstName()%></td>
-                            <td><%=tempStudent.getLastName()%></td>
-                            <td><%=tempStudent.getEmail()%></td>
-
-                        </tr>                        
-
-                        <%   }%>
 
                     </tbody>
 
