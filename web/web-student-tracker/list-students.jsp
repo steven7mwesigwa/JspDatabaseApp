@@ -4,11 +4,6 @@
     Author     : Steven Mwesigwa @steven7mwesigwa
 --%>
 
-<!--import packages-->
-<!--Beacause we'll be using ArrayLists from "java.util.*" and some of -->
-<!--our custom classes from package "com.luv2code.web.jdbc.*".-->
-<%@page import="java.util.*, com.luv2code.web.jdbc.*"%>
-
 <!--Drop in the taglib directive to support the use of JSTL Core tags-->
 <%@taglib uri ="http://java.sun.com/jsp/jstl/core" prefix ="c" %>
 
