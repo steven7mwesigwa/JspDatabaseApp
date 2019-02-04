@@ -50,7 +50,19 @@
                     <tbody>
 
                         <!--Looping through the List of students.-->
-
+                        <!--"STUDENT_LIST" variable is the same attribute name-->
+                        <!-- in the request object.-->
+                        <!-- that we set in our controller servlet.-->
+                        <!--"tempStudent" is just a temporary variable we've-->
+                        <!--set to  hold each "Student"-->
+                        <!--object in the foreach loop.-->
+                        <c:forEach var="tempStudent" items="${STUDENT_LIST}">
+                            <tr>
+                                <td>${tempStudent.getFirstName()}</td>
+                                <td>${tempStudent.getLastName()}</td>
+                                <td>${tempStudent.getEmail()}</td>
+                            </tr>
+                        </c:forEach>
 
                     </tbody>
 
