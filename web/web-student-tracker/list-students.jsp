@@ -19,18 +19,6 @@
 
     </head>
 
-
-    <%
-        // Get List of students from request object (sent by 
-//        servlet controller //"StudentControllerServlet.java").
-//        "STUDENT_LIST" is the SAME attribute name that was set on the
-//            "request" object in our servlet controller.
-        List<Student> theStudents
-                = (List<Student>) request.getAttribute("STUDENT_LIST");
-
-
-    %>
-
     <body>
 
         <!--A simple proof of concept to confirm that we've got the data.-->
