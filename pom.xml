@@ -13,13 +13,7 @@
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    
-<!--    <build>
-        <sourceDirectory>src/java</sourceDirectory>
-        <testSourceDirectory>src/tests</testSourceDirectory>
-    </build>-->
-    
-    
+        
     <dependencies>
         <dependency>
             <groupId>javax</groupId>
@@ -29,29 +23,25 @@
         </dependency>
         
         <!-- https://mvnrepository.com/artifact/javax/javaee-endorsed-api -->
-<!--        <dependency>
+        <dependency>
             <groupId>javax</groupId>
             <artifactId>javaee-endorsed-api</artifactId>
             <version>7.0</version>
-        </dependency>-->
+        </dependency>
 
-        
         <!-- https://mvnrepository.com/artifact/jstl/jstl -->
-<!--        <dependency>
+        <dependency>
             <groupId>jstl</groupId>
             <artifactId>jstl</artifactId>
             <version>1.2</version>
-        </dependency>-->
-
+        </dependency>
         
         <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
-<!--        <dependency>
+        <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.38</version>
-        </dependency>-->
-
-        
+        </dependency>
         
     </dependencies>
 
