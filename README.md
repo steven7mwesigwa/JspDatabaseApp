@@ -168,7 +168,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ---
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/steven7mwesigwa/jsp-database-app/blob/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE file](/LICENSE "MIT license") for details
 
 ## Release History
 
