@@ -172,7 +172,7 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 ---
 
-Check [Release Notes](https://github.com/steven7mwesigwa/jsp-database-app/releases "Release Notes") for any changes.
+Check [Release Notes](https://github.com/steven7mwesigwa/JspDatabaseApp/releases "Release Notes") for any changes.
 
 ## Acknowledgments
 
