@@ -4825,7 +4825,7 @@ So we need to have a solution for this.
     * Add your database  connection information to it.
 
     ```xml
-    <!--File: WebContent/META-INF/context.xml-->
+    <!--File: webapp/META-INF/context.xml-->
     
     <?xml version="1.0" encoding="UTF-8"?>
     
