@@ -13,7 +13,7 @@
 
 ---
 
-Welcome to you all. This is a documentation to explain every single detail and line of code about this project. It is designed to explain each new term as it arrives.
+Welcome to you all. This is a documentation to explain every single detail and line of code about this project. It is designed to explain each new term as it arrives. Though you're feel to skip to any chapter as you wish.
 
 If you get stuck about some code in a particular file, just search this documentation for that file name i.e `foreach-simple-test.jsp` and you should see the detailed explanation about the code in that file.
 
@@ -21,7 +21,7 @@ If you get stuck about some code in a particular file, just search this document
 
 Don't be worried, i made sure to hold your hand every step of the way.
 
-Don't hesitate to shot me an email if you  have any questions.
+Don't hesitate to shoot me an email if you  have any questions.
 
 ## Table Of Contents
 
