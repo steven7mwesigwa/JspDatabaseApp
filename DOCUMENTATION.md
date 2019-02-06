@@ -17,7 +17,7 @@ Welcome to you all. This is a documentation to explain every single detail and l
 
 If you get stuck about some code in a particular file, just search this documentation for that file name i.e `foreach-simple-test.jsp` and you should see the detailed explanation about the code in that file.
 
-**Please, make sure to let me know if there are any typos or inaccurate information. Am also a learner like you :)**.
+**Please, make sure to let me know if there are any typos, broken links or inaccurate information. Am also a learner like you :)**.
 
 Don't be worried, i made sure to hold your hand every step of the way.
 
