@@ -99,7 +99,7 @@ Don't hesitate to shoot me an email if you  have any questions.
 
 * [05-034-personalize-content-with-cookies-overview](#05-034-personalize-content-with-cookies-overview "05-034 personalize content with cookies overview")
 
-  * [What are cookies?](#what-are-cookies? "What are cookies?")
+  * [What are cookies?](#what-are-cookies "What are cookies?")
   * [Cookies Demo Example (05-034)](#cookies-demo-example-05-034 "Cookies Demo Example (05-034)")
   * [Cookie API - Sending cookies to the Browser](#cookie-api---sending-cookies-to-the-browser "Cookie api - sending cookies to the browser")
   * [Cookie API - Reading cookies from the browser.](#cookie-api---reading-cookies-from-the-browser "Cookie api - reading cookies from the browser.")
