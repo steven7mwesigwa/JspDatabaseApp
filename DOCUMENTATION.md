@@ -33,7 +33,7 @@ Don't hesitate to shoot me an email if you  have any questions.
 
 * [02-006-jsp-and-servlets-overview](#02-006-jsp-and-servlets-overview "02-006 jsp and servlets overview")
 
-  * [What are web applications?](#what-are-web-applications? "what are web applications?")
+  * [What are web applications?](#what-are-web-applications&#63; "what are web applications?")
   * [What are JSP and Servlets?](#what-are-jsp-and-servlets? "what are jsp and servlets?")
   * [What types of apps can we create?](#what-types-of-apps-can-we-create? "what types of apps can we create?")
 
