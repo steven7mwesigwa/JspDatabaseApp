@@ -270,7 +270,7 @@ Don't hesitate to shoot me an email if you  have any questions.
 
 ---
 
-* #### What are web applications?
+* #### What are web applications&#63;
 
   * A website where the HTML pages are created dynamically
 
