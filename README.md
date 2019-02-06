@@ -77,7 +77,7 @@ Follow these instructions ONLY after you've met ALL the requirements in the **[P
 1. First, open up your *terminal* and clone the repository to your Computer.
 
 	```bash
-	git clone https://github.com/steven7mwesigwa/jsp-database-app.git
+	git clone https://github.com/steven7mwesigwa/JspDatabaseApp.git
 	```
 
 2. Start your favorite IDE *(integrated development environment)* i.e *Netbeans, Eclipse or IntelliJ* and open the project.
