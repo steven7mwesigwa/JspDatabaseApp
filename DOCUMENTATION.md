@@ -5553,7 +5553,7 @@ To use this css file in our JSP page `web-student-tracker/list-students.jsp`, Ad
 
 Considering that [adding JSTL support](#06-039-install-jstl-jar-files "06-039 install jstl jar files") has already been covered, here we'll focus on replacing our JSP scriptlet code with JSTL tags.
 
-* You may remember from our previous sessions how the [best practice was to replace scriptlets with JSP.](#best-practice "Best Practice") So this is exactly what we'll do here.
+* You may remember from our previous sReplace the looping portion withessions how the [best practice was to replace scriptlets with JSP.](#best-practice "Best Practice") So this is exactly what we'll do here.
 
 #### To Do List (11-087)
 
@@ -5633,7 +5633,7 @@ Considering that [adding JSTL support](#06-039-install-jstl-jar-files "06-039 in
     * Replace the looping portion with `<c:each>` like below.
 
         ```jsp
-    <!-- EXCERPT from web-student-tracker/list-students.jsp -->
+         <!-- EXCERPT from web-student-tracker/list-students.jsp -->
         
     <!--...-->
                             <!--"STUDENT_LIST" variable is the same attribute name-->
@@ -5651,7 +5651,7 @@ Considering that [adding JSTL support](#06-039-install-jstl-jar-files "06-039 in
                             </c:forEach>
     <!--...-->
         
-    ```
+        ```
 
     
 
