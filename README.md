@@ -29,7 +29,7 @@ When you get stuck, read the **[FULL DOCUMENTATION](/DOCUMENTATION.md "full docu
 
 ---
 
-See **[Installing (Deployment)](/README.md#installing-(deployment) "Deploying the project")** for notes on how to deploy the project on a live system.
+See **[Installing (Deployment)](/README.md#installing-\(deployment\) "Deploying the project")** for notes on how to deploy the project on a live system.
 
 
 ## Prerequisites
