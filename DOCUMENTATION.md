@@ -3,7 +3,7 @@
 
 ## JSP, Servlets and JDBC for Beginners Build a Database App
 
-### Building a JSP CRUD web application from scratch
+### Building a JSP MVC CRUD web application from scratch
 
 ---
 
