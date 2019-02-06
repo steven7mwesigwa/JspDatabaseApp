@@ -127,7 +127,7 @@ Follow these instructions ONLY after you've met ALL the requirements in the **[P
 
 ---
 
-Feel free to contribute to anything. Even spotting typos would very much be appreciated :).
+Feel free to contribute to anything. Even spotting typos and broken links would very much be appreciated :).
 Please don't hesitate to submit issues and pull-requests against this project.
 
 1. **[Fork](https://github.com/steven7mwesigwa/JspDatabaseApp/fork)** the repository.
