@@ -4765,7 +4765,7 @@ So we need to have a solution for this.
     * i.e
 
     ```xml
-        <!--File: WebContent/META-INF/context.xml-->
+        <!--File: webapp/META-INF/context.xml-->
 
     <?xml version="1.0" encoding="UTF-8"?>
     
