@@ -136,7 +136,7 @@ Don't hesitate to shoot me an email if you  have any questions.
 * [07-049 jstl function tags length touppercase and startswith](#07-049-jstl-function-tags-length-touppercase-and-startswith "07-049 jstl function tags length touppercase and startswith")
 
   * [JSTL Functions](#jstl-functions "JSTL Functions")
-  * [JSTL Functions (length-touppercase-and-startswith) Demo Example (07-049)](#jstl-functions-(length-touppercase-and-startswith)-demo-example-(07-049)  "JSTL Functions (length-touppercase-and-startswith) Demo Example (07-049)")
+  * [JSTL Functions (length-touppercase-and-startswith) Demo Example (07-049)](#jstl-functions-length-touppercase-and-startswith-demo-example-07-049 "JSTL Functions (length-touppercase-and-startswith) Demo Example (07-049)")
 
 * [07-050-jstl-function-tags-split-and-join](#07-050-jstl-function-tags-split-and-join "07-050 jstl function tags split and join")
 
