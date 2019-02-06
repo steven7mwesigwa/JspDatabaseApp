@@ -4757,8 +4757,8 @@ So we need to have a solution for this.
       * ***[Optional]:*** If you are using maven then you can add the dependency from the link http://mvnrepository.com/artifact/mysql/mysql-connector-java
 
           * Select the version you want to use and add the dependency in your `pom.xml` file without having to manually download dependencies.
-
-
+            
+          * **NOTE:** For this project, we used the one [defined in our **pom.xml** file.](/pom.xml)
 
 2. Define a *connection pool* in **META-INF/context.xml.**
 
