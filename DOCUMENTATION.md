@@ -227,7 +227,7 @@ Don't hesitate to shoot me an email if you  have any questions.
 
 * [11-078-setup-tomcat-datasource-for-connection-pooling](#11-078-setup-tomcat-datasource-for-connection-pooling "11-078 setup tomcat datasource for connection pooling")  
 
-  * [How do we setup a connection pool?](#how-do-we-setup-a-connection-pool? "How do we setup a connection pool?")
+  * [How do we setup a connection pool?](#how-do-we-setup-a-connection-pool "How do we setup a connection pool?")
 
 * [11-079-test-tomcat-connection-pooling](#11-079-test-tomcat-connection-pooling "11-079 test tomcat connection pooling")
 
