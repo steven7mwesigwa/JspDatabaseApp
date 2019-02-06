@@ -90,7 +90,7 @@ Don't hesitate to shoot me an email if you  have any questions.
 
 * [05-030-tracking-user-actions-with-sessions-overview](#05-030-tracking-user-actions-with-sessions-overview "05-030 tracking user actions with sessions overview")
 
-  * [Session Demo Example (05-030)](#session-demo-example--05-030- "Session Demo Example (05-030)")
+  * [Session Demo Example (05-030)](#session-demo-example-\(05-030%29 "Session Demo Example (05-030)")
   * [Adding data to session object](#adding-data-to-session-object "Adding data to session object")
   * [Retrieving data from session object](#retrieving-data-from-session-object "Retrieving data from session object")
   * [JSP Session - Other useful methods](#jsp-session---other-useful-methods "JSP Session - Other useful methods")
