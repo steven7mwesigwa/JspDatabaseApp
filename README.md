@@ -121,6 +121,8 @@ Follow these instructions ONLY after you've met ALL the requirements in the **[P
 
 * [Apache Ant](https://ant.apache.org/ "Apache Ant") - As a build tool for my web CRUD application.
 
+  * **NOTE:** The project was changed to use **[maven](https://maven.apache.org/)** instead from release version `1.0.0-beta` and later releases.
+
 ## Contributing
 
 ---
