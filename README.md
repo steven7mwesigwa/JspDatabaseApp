@@ -168,7 +168,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ---
 
-This project is licensed under the MIT License - see the [LICENSE file](LICENSE "MIT license file") for more details
+This project is licensed under the MIT License - see the [LICENSE djdk file](LICENSE "MIT license file") for more details
 
 ## Release History
 
