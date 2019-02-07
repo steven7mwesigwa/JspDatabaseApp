@@ -148,7 +148,7 @@ Please don't hesitate to submit issues and pull-requests against this project.
 
 5. Create a [new Pull Request](https://help.github.com/articles/using-pull-requests/).
 
-Please read [CONTRIBUTING.md](https://github.com/steven7mwesigwa/JspDatabaseApp/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to me.
+Please read [CONTRIBUTING.md](/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to me.
 
 ## Versioning
 
