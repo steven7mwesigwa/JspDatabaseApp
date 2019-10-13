@@ -3,7 +3,7 @@
 
 ## JSP, Servlets and JDBC for Beginners Build a Database App
 
-### Building a JSP CRUD web application from scratch
+### Building a JSP MVC CRUD web application from scratch
 
 ---
 
@@ -13,15 +13,15 @@
 
 ---
 
-Welcome to you all. This is a documentation to explain every single detail and line of code about this project. It is designed to explain each new term as it arrives.
+Welcome to you all. This is a documentation to explain every single detail and line of code about this project. It is designed to explain each new term as it arrives. Though you're feel to skip to any chapter as you wish.
 
 If you get stuck about some code in a particular file, just search this documentation for that file name i.e `foreach-simple-test.jsp` and you should see the detailed explanation about the code in that file.
 
-**Please, make sure to let me know if there are any typos or inaccurate information. Am also a learner like you :)**.
+**Please, make sure to let me know if there are any typos, broken links or inaccurate information. Am also a learner like you :)**.
 
 Don't be worried, i made sure to hold your hand every step of the way.
 
-Don't hesitate to shot me an email if you  have any questions.
+Don't hesitate to shoot me an email if you  have any questions.
 
 ## Table Of Contents
 
@@ -33,9 +33,9 @@ Don't hesitate to shot me an email if you  have any questions.
 
 * [02-006-jsp-and-servlets-overview](#02-006-jsp-and-servlets-overview "02-006 jsp and servlets overview")
 
-  * [What are web applications?](#what-are-web-applications? "what are web applications?")
-  * [What are JSP and Servlets?](#what-are-jsp-and-servlets? "what are jsp and servlets?")
-  * [What types of apps can we create?](#what-types-of-apps-can-we-create? "what types of apps can we create?")
+  * [What are web applications?](#what-are-web-applications "what are web applications?")
+  * [What are JSP and Servlets?](#what-are-jsp-and-servlets "what are jsp and servlets?")
+  * [What types of apps can we create?](#what-types-of-apps-can-we-create "what types of apps can we create?")
 
 * [02-008-setting-up-the-development-environment-overview](#02-008-setting-up-the-development-environment-overview "02-008 setting up the development environment overview")
 
@@ -56,9 +56,9 @@ Don't hesitate to shot me an email if you  have any questions.
 * [03-016-jsp-hello-world](#03-016-jsp-hello-world "03-016 jsp hello world")
 
   * [Creating a Hello World program with JSP](#creating-a-hello-world-program-with-jsp "creating a hello world program with jsp")
-  * [What is a JSP file?](#what-is-a-jsp-file? "what is a jsp file?")
-  * [Where is the JSP processed?](#where-is-the-jsp-processed? "where is the jsp processed?")
-  * [Where to place the JSP file?](#where-to-place-the-jsp-file? "where to place the jsp file?")
+  * [What is a JSP file?](#what-is-a-jsp-file "what is a jsp file?")
+  * [Where is the JSP processed?](#where-is-the-jsp-processed "where is the jsp processed?")
+  * [Where to place the JSP file?](#where-to-place-the-jsp-file "where to place the jsp file?")
 
 * [03-017-jsp-expressions](#03-017-jsp-expressions "03-017 jsp expressions")
 
@@ -90,7 +90,7 @@ Don't hesitate to shot me an email if you  have any questions.
 
 * [05-030-tracking-user-actions-with-sessions-overview](#05-030-tracking-user-actions-with-sessions-overview "05-030 tracking user actions with sessions overview")
 
-  * [Session Demo Example (05-030)](#session-demo-example-(05-030) "Session Demo Example (05-030)")
+  * [Session Demo Example (05-030)](#session-demo-example-05-030 "Session Demo Example (05-030)")
   * [Adding data to session object](#adding-data-to-session-object "Adding data to session object")
   * [Retrieving data from session object](#retrieving-data-from-session-object "Retrieving data from session object")
   * [JSP Session - Other useful methods](#jsp-session---other-useful-methods "JSP Session - Other useful methods")
@@ -99,8 +99,8 @@ Don't hesitate to shot me an email if you  have any questions.
 
 * [05-034-personalize-content-with-cookies-overview](#05-034-personalize-content-with-cookies-overview "05-034 personalize content with cookies overview")
 
-  * [What are cookies?](#what-are-cookies? "What are cookies?")
-  * [Cookies Demo Example (05-034)](#cookies-demo-example-(05-034) "Cookies Demo Example (05-034)")
+  * [What are cookies?](#what-are-cookies "What are cookies?")
+  * [Cookies Demo Example (05-034)](#cookies-demo-example-05-034 "Cookies Demo Example (05-034)")
   * [Cookie API - Sending cookies to the Browser](#cookie-api---sending-cookies-to-the-browser "Cookie api - sending cookies to the browser")
   * [Cookie API - Reading cookies from the browser.](#cookie-api---reading-cookies-from-the-browser "Cookie api - reading cookies from the browser.")
 
@@ -114,7 +114,7 @@ Don't hesitate to shot me an email if you  have any questions.
 
   * [Categories of JSP tags](#categories-of-jsp-tags "Categories of JSP tags")
   * [JSP Custom Tags Demo Example](#jsp-custom-tags-demo-example "JSP Custom Tags Demo Example")
-  * [JSP Standard Tag Library (JSTL)](#jsp-standard-tag-library-(jstl) "JSP Standard Tag Library (JSTL)")
+  * [JSP Standard Tag Library (JSTL)](#installing-jsp-standard-tag-library-jstl "JSP Standard Tag Library (JSTL)")
 
 * [06-039-install-jstl-jar-files](#06-039-install-jstl-jar-files "06-039 install jstl jar files")
 
@@ -136,19 +136,19 @@ Don't hesitate to shot me an email if you  have any questions.
 * [07-049 jstl function tags length touppercase and startswith](#07-049-jstl-function-tags-length-touppercase-and-startswith "07-049 jstl function tags length touppercase and startswith")
 
   * [JSTL Functions](#jstl-functions "JSTL Functions")
-  * [JSTL Functions (length-touppercase-and-startswith) Demo Example (07-049)](#jstl-functions-(length-touppercase-and-startswith)-demo-example-(07-049)  "JSTL Functions (length-touppercase-and-startswith) Demo Example (07-049)")
+  * [JSTL Functions (length-touppercase-and-startswith) Demo Example (07-049)](#jstl-functions-length-touppercase-and-startswith-demo-example-07-049 "JSTL Functions (length-touppercase-and-startswith) Demo Example (07-049)")
 
 * [07-050-jstl-function-tags-split-and-join](#07-050-jstl-function-tags-split-and-join "07-050 jstl function tags split and join")
 
-  * [fn:split()](#fn:split() "fn:split()")
-  * [fn:join()](#fn:join() "fn:join()")
+  * [fn:split()](#fnsplit "fn:split()")
+  * [fn:join()](#fnjoin "fn:join()")
 
 [CHAPTER 08-build-a-multilingual-app-with-jstl-i18n-tags](#08-build-a-multilingual-app-with-jstl-i18n-tags "08-build a multilingual app with jstl i18n tags")
 
 * [08-051-multilingual-internationalization-overview](#08-051-multilingual-internationalization-overview "08-051 multilingual internationalization overview")
 
-  * [What is I18N?](#what-is-i18n? "What is I18N?")
-  * [What is a Locale?](#what-is-a-locale?  "What is a Locale?")
+  * [What is I18N?](#what-is-i18n "What is I18N?")
+  * [What is a Locale?](#what-is-a-locale  "What is a Locale?")
 
 * [08-052-multilingual-internationalization-messages](#08-052-multilingual-internationalization-messages "08-052 multilingual internationalization messages")
 
@@ -164,7 +164,7 @@ Don't hesitate to shot me an email if you  have any questions.
 
 * [09-056-hello-world-servlet-overview](#09-056-hello-world-servlet-overview "09-056 hello world servlet overview")
 
-  * [What are Servlets?](#what-are-servlets? "What are Servlets?")
+  * [What are Servlets?](#what-are-servlets "What are Servlets?")
 
 * [09-057-hello-world-servlet-lets-write-some-code](#09-057-hello-world-servlet-lets-write-some-code "09-057 hello world servlet lets write some code")
 
@@ -172,7 +172,7 @@ Don't hesitate to shot me an email if you  have any questions.
 
   * [JSPs](#jsps "JSPs")
   * [Servlets](#servlets "Servlets")
-  * [Which one to use ?](#which-one-to-use-? "Which one to use ?")
+  * [Which one to use ?](#which-one-to-use- "Which one to use ?")
   * [Best Practice](#best-practice "Best Practice")
 
 * [09-059-reading-html-form-data-with-servlets-overview](#09-059-reading-html-form-data-with-servlets-overview "09-059 reading html form data with servlets overview")
@@ -193,8 +193,8 @@ Don't hesitate to shot me an email if you  have any questions.
 * [10-066-mvc-with-servlets-and-jsp-overview](#10-066-mvc-with-servlets-and-jsp-overview "10-066 mvc with servlets and jsp overview")
 
   * [Benefits of MVC](#benefits-of-mvc "Benefits of mvc")
-  * [Question: How can Servlets call JSPs ?](#question:-how-can-servlets-call-jsps-? "Question: how can servlets call jsps ?")
-  * [Question : How can a servlet send data to a JSP ?](#question-:-how-can-a-servlet-send-data-to-a-jsp-? "Question : how can a servlet send data to a jsp ?")
+  * [Question: How can Servlets call JSPs ?](#question-how-can-servlets-call-jsps- "Question: how can servlets call jsps ?")
+  * [Question : How can a servlet send data to a JSP ?](#question--how-can-a-servlet-send-data-to-a-jsp- "Question : how can a servlet send data to a jsp ?")
   * [How JSPs view the data previously added to the request object by a servlet.](#how-jsps-view-the-data-previously-added-to-the-request-object-by-a-servlet "How JSps view the data previously added to the request object by a servlet.")
  
 * [10-067-mvc-with-servlets-and-jsp-lets-write-some-code](#10-067-mvc-with-servlets-and-jsp-lets-write-some-code "10-067 mvc with servlets and jsp lets write some code")
@@ -221,13 +221,13 @@ Don't hesitate to shot me an email if you  have any questions.
 
 * [11-077-setting-up-our-project-database-with-sample-data](#11-077-setting-up-our-project-database-with-sample-data "11-077 setting up our project database with sample data")
 
-  * [SQL Script No. 1](#sql-script-no.-1 "SQL Script no. 1")
-  * [SQL Script No. 2](#sql-script-no.-2 "SQL Script no. 2")
+  * [SQL Script No. 1](#sql-script-no-1 "SQL Script no. 1")
+  * [SQL Script No. 2](#sql-script-no-2 "SQL Script no. 2")
   * [Running the SQL scripts](#running-the-sql-scripts "Running the sql scripts")
 
 * [11-078-setup-tomcat-datasource-for-connection-pooling](#11-078-setup-tomcat-datasource-for-connection-pooling "11-078 setup tomcat datasource for connection pooling")  
 
-  * [How do we setup a connection pool?](#how-do-we-setup-a-connection-pool? "How do we setup a connection pool?")
+  * [How do we setup a connection pool?](#how-do-we-setup-a-connection-pool "How do we setup a connection pool?")
 
 * [11-079-test-tomcat-connection-pooling](#11-079-test-tomcat-connection-pooling "11-079 test tomcat connection pooling")
 
@@ -4757,15 +4757,15 @@ So we need to have a solution for this.
       * ***[Optional]:*** If you are using maven then you can add the dependency from the link http://mvnrepository.com/artifact/mysql/mysql-connector-java
 
           * Select the version you want to use and add the dependency in your `pom.xml` file without having to manually download dependencies.
-
-
+            
+          * **NOTE:** For this project, we used the one [defined in our **pom.xml** file.](/pom.xml)
 
 2. Define a *connection pool* in **META-INF/context.xml.**
 
     * i.e
 
     ```xml
-        <!--File: WebContent/META-INF/context.xml-->
+        <!--File: webapp/META-INF/context.xml-->
 
     <?xml version="1.0" encoding="UTF-8"?>
     
@@ -4825,7 +4825,7 @@ So we need to have a solution for this.
     * Add your database  connection information to it.
 
     ```xml
-    <!--File: WebContent/META-INF/context.xml-->
+    <!--File: webapp/META-INF/context.xml-->
     
     <?xml version="1.0" encoding="UTF-8"?>
     
@@ -5514,7 +5514,7 @@ Since this isn't a *css* tutorial, To keep this project documentation at a reaso
 
 * With that out of the way, create a folder called `css` under the `/web-student-tracker/`.  
 
-  * Copy & Paste this [style.css]() file inside our `css` subdirectory.
+  * Copy & Paste this [style.css](/src/main/webapp/web-student-tracker/css/style.css "style.css stylesheet file") file inside our `css` subdirectory.
 
 To use this css file in our JSP page `web-student-tracker/list-students.jsp`, Add the code below inside the `<head> ... </head>` tag.
 
@@ -5553,7 +5553,7 @@ To use this css file in our JSP page `web-student-tracker/list-students.jsp`, Ad
 
 Considering that [adding JSTL support](#06-039-install-jstl-jar-files "06-039 install jstl jar files") has already been covered, here we'll focus on replacing our JSP scriptlet code with JSTL tags.
 
-* You may remember from our previous sessions how the [best practice was to replace scriptlets with JSP.](#best-practice "Best Practice") So this is exactly what we'll do here.
+* You may remember from our previous sReplace the looping portion withessions how the [best practice was to replace scriptlets with JSP.](#best-practice "Best Practice") So this is exactly what we'll do here.
 
 #### To Do List (11-087)
 
@@ -5633,7 +5633,7 @@ Considering that [adding JSTL support](#06-039-install-jstl-jar-files "06-039 in
     * Replace the looping portion with `<c:each>` like below.
 
         ```jsp
-    <!-- EXCERPT from web-student-tracker/list-students.jsp -->
+         <!-- EXCERPT from web-student-tracker/list-students.jsp -->
         
     <!--...-->
                             <!--"STUDENT_LIST" variable is the same attribute name-->
@@ -5651,7 +5651,7 @@ Considering that [adding JSTL support](#06-039-install-jstl-jar-files "06-039 in
                             </c:forEach>
     <!--...-->
         
-    ```
+        ```
 
     
 

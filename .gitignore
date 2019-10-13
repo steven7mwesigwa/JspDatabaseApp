@@ -1,2 +1,7 @@
 /dist/
 /target/
+
+#Ignore files and settings specific to vscode
+.project
+.settings/
+.vscode

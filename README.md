@@ -29,7 +29,7 @@ When you get stuck, read the **[FULL DOCUMENTATION](/DOCUMENTATION.md "full docu
 
 ---
 
-See **[Installing (Deployment)](/README.md#installing-(deployment) "Deploying the project")** for notes on how to deploy the project on a live system.
+See **[Deployment](/README.md#deployment "Deploying the project")** for notes on how to deploy the project on a live system.
 
 
 ## Prerequisites
@@ -66,7 +66,7 @@ What things you need to install *(the software)* and how to install them
 
 6. Basics of JAVA and HTML.
 
-## Installing (Deployment)
+## Deployment
 
 ---
 
@@ -77,7 +77,7 @@ Follow these instructions ONLY after you've met ALL the requirements in the **[P
 1. First, open up your *terminal* and clone the repository to your Computer.
 
 	```bash
-	git clone https://github.com/steven7mwesigwa/jsp-database-app.git
+	git clone https://github.com/steven7mwesigwa/JspDatabaseApp.git
 	```
 
 2. Start your favorite IDE *(integrated development environment)* i.e *Netbeans, Eclipse or IntelliJ* and open the project.
@@ -121,18 +121,20 @@ Follow these instructions ONLY after you've met ALL the requirements in the **[P
 
 * [Apache Ant](https://ant.apache.org/ "Apache Ant") - As a build tool for my web CRUD application.
 
+  * **NOTE:** The project was changed to use **[maven](https://maven.apache.org/)** instead from release version `1.0.0-beta` and later releases.
+
 ## Contributing
 
 ---
 
-Feel free to contribute to anything. Even spotting typos would very much be appreciated :).
+Feel free to contribute to anything. Even spotting typos and broken links would very much be appreciated :).
 Please don't hesitate to submit issues and pull-requests against this project.
 
-1. **[Fork](https://github.com/steven7mwesigwa/jsp-database-app/fork)** the repository.
+1. **[Fork](https://github.com/steven7mwesigwa/JspDatabaseApp/fork)** the repository.
 
     * This allows you to freely experiment with changes without affecting the original project.
 
-2. Create your *feature* branch.
+2. Create your [*feature* branch](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository).
 
     * i.e  (`git checkout -b feature/fooBar`)
 
@@ -144,15 +146,15 @@ Please don't hesitate to submit issues and pull-requests against this project.
 
     * i.e  (`git push origin feature/fooBar`)
 
-5. Create a new Pull Request.
+5. Create a [new Pull Request](https://help.github.com/articles/using-pull-requests/).
 
-Please read [CONTRIBUTING.md](https://github.com/steven7mwesigwa/jsp-database-app/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to me.
+Please read [CONTRIBUTING.md](/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to me.
 
 ## Versioning
 
 ---
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/steven7mwesigwa/jsp-database-app/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/steven7mwesigwa/JspDatabaseApp/tags).
 
 ## Authors
 
@@ -166,13 +168,13 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ---
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/steven7mwesigwa/jsp-database-app/blob/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE file](/LICENSE "MIT license file") for more details
 
 ## Release History
 
 ---
 
-Check [Release Notes](https://github.com/steven7mwesigwa/jsp-database-app/releases "Release Notes") for any changes.
+Check [Release Notes](https://github.com/steven7mwesigwa/JspDatabaseApp/releases "Release Notes") for any changes.
 
 ## Acknowledgments
 
